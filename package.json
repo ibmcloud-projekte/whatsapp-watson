@@ -4,7 +4,7 @@
   "description": "This is a WhatsApp Youtube Demo.",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "nodemon src/index.js"
   },
   "author": "Raj Kapadia",
   "license": "ISC",
@@ -14,5 +14,8 @@
     "express": "^4.17.1",
     "ibm-watson": "^5.7.0",
     "twilio": "^3.43.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
